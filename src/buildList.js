@@ -16,7 +16,7 @@ module.exports = function buildList() {
       'patch': +parsed[ 2 ]
     },
     'tags': {},
-    'logoURI': 'https://avatars3.githubusercontent.com/u/72115518?s=60&v=4',
+    'logoURI': 'ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM',
     'keywords': [
       'swap.pet',
       'token',
