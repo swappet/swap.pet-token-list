@@ -5,7 +5,7 @@ token list for swap.pet, include whitelist/blacklist/greylist/newlist/toplist/vi
 the token list compatible with the Uniswap:@uniswap/token-lists/src/tokenlist.schema.json
 
 [![Tests](https://github.com/swappet/token-list/workflows/Tests/badge.svg)](https://github.com/swappet/token-list/actions?query=workflow%3ATests)
-[![npm](https://img.shields.io/npm/v/swappet/token-list)](https://unpkg.com/swappet-token-list@latest/)
+[![npm](https://img.shields.io/npm/v/swappet-token-list)](https://unpkg.com/swappet-token-list@latest/)
 
 This NPM module and GitHub repo contains the default token list used in the swap.pet interface.
 
