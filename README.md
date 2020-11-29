@@ -9,6 +9,12 @@ the token list compatible with the Uniswap:@uniswap/token-lists/src/tokenlist.sc
 
 This NPM module and GitHub repo contains the default token list used in the swap.pet interface.
 
+### usage
+in project dir: `$ npm i swappet-token-list`
+in js file:
+```js
+import tokenlist from 'swappet-token-list/build/tokenlist.json' 
+```
 ## Adding a token to default token list
 
 To request that we add a token to the list, 
