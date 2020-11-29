@@ -8,7 +8,7 @@ const kovan = require('./tokens/kovan.json');
 module.exports = function buildList() {
   const parsed = version.split('.');
   return {
-    'name': 'Swap.Pet Default List',
+    'name': 'Swap.Pet Token List',
     'timestamp': (new Date().toISOString()),
     'version': {
       'major': +parsed[ 0 ],
