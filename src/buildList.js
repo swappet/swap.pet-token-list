@@ -8,7 +8,7 @@ const kovan = require('./tokens/kovan.json');
 module.exports = function buildList() {
   const parsed = version.split('.');
   return {
-    'name': 'Swap.Pet Token List',
+    'name': 'Uniswap Default List',
     'timestamp': (new Date().toISOString()),
     'version': {
       'major': +parsed[ 0 ],
@@ -16,11 +16,9 @@ module.exports = function buildList() {
       'patch': +parsed[ 2 ]
     },
     'tags': {},
-    'logoURI': 'ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM',
+    'logoURI': 'ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir',
     'keywords': [
-      'swap.pet',
-      'token',
-      'list',
+      'uniswap',
       'default'
     ],
     tokens: [
