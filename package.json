@@ -1,7 +1,7 @@
 {
-  "name": "token-list",
+  "name": "swappet-token-list",
   "version": "1.0.0",
-  "description": "◦ The Swap.Pet default token list",
+  "description": "The Swap.Pet default token list",
   "main": "build/tokenlist.json",
   "scripts": {
     "test": "mocha",
