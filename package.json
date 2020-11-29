@@ -29,10 +29,13 @@
   "homepage": "https://github.com/swappet/token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
-    "@uniswap/token-lists": "^1.0.0-beta.8",
+    "@uniswap/token-lists": "^1.0.0-beta.18",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "update": "^0.7.4"
   }
 }
