@@ -1,6 +1,6 @@
 {
   "name": "swappet-token-list",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "The Swap.Pet default token list",
   "main": "build/tokenlist.json",
   "scripts": {
