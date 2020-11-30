@@ -27,13 +27,17 @@ module.exports = function buildList() {
       ...goerli,
       ...kovan,
       ...rinkeby
-    ]
+    ].map(a => {
+      return {
+        ...a, 
+        address: a.address.toLowerCase(), 
+        symbol: a.symbol.toUpperCase()}
+    }).sort((t1, t2) => {
       // sort them by symbol for easy readability
-      .sort((t1, t2) => {
-        if (t1.chainId === t2.chainId) {
-          return t1.symbol.toLowerCase() < t2.symbol.toLowerCase() ? -1 : 1;
-        }
-        return t1.chainId < t2.chainId ? -1 : 1;
-      })
+      if (t1.chainId === t2.chainId) {
+        return t1.symbol.toLowerCase() < t2.symbol.toLowerCase() ? -1 : 1;
+      }
+      return t1.chainId < t2.chainId ? -1 : 1;
+    })
   };
 };
