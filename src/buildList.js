@@ -29,8 +29,7 @@ module.exports = function buildList() {
       ...rinkeby
     ].map(a => {
       return {
-        ...a, 
-        address: a.address.toLowerCase(), 
+        ...a,  
         symbol: a.symbol.toUpperCase()}
     }).sort((t1, t2) => {
       // sort them by symbol for easy readability
