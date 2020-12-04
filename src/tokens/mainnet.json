@@ -585,7 +585,7 @@
   },
   {
     "name": "HK Monetary Token",
-    "address": "0xc8c97d9b0af219c2329a0179f6ab8c7a55b39fc1",
+    "address": "0xc8c97d9B0aF219c2329a0179f6AB8C7a55B39fc1",
     "symbol": "HKMT",
     "decimals": 6,
     "chainId": 1,
