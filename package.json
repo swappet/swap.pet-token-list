@@ -1,13 +1,12 @@
 {
   "name": "swappet-token-list",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "The Swap.Pet default token list",
   "main": "build/tokenlist.json",
   "scripts": {
     "test": "mocha",
     "build": "rimraf build && mkdir -p build && node src/write.js > build/tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
-    
   },
   "files": [
     "build/tokenlist.json"
